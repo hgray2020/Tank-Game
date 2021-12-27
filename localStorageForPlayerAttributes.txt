@@ -1,0 +1,25 @@
+localStorage.setItem("pspeed", 5);
+		var pspeed = localStorage.getItem("pspeed");
+		if(pspeed == undefined){
+			pspeed = 5;
+		}
+		localStorage.setItem("pshotspeed", 10);
+		var pshotspeed = localStorage.getItem("pshotspeed");
+		if(pshotspeed == undefined){
+			pshotspeed = 10;
+		}
+		localStorage.setItem("preloadc", 65);
+		var preloadc = localStorage.getItem("preloadc");
+		if(preloadc == undefined){
+			preloadc = 65;
+		}
+		localStorage.setItem("pmaxhealth", 100);
+		var pmaxhealth = localStorage.getItem("pmaxhealth");
+		if(pmaxhealth == undefined){
+			pmaxhealth = 100;
+		}
+		localStorage.setItem("pdamage", 5);
+		var pdamage = localStorage.getItem("pdamage");
+		if(pdamage == undefined){
+			pdamage = 5;
+		}
